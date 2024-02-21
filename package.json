@@ -1,6 +1,6 @@
 {
-  "name": "@rodrigogs/mysql-events",
-  "version": "0.6.0",
+  "name": "maria-events",
+  "version": "0.6.3",
   "license": "BSD-3-Clause",
   "description": "A node.js package that watches a MySQL database and runs callbacks on matched events like updates on tables and/or specific columns.",
   "homepage": "https://github.com/rodrigogs/mysql-events",
@@ -30,6 +30,7 @@
     "@rodrigogs/zongji": "^0.4.14",
     "debug": "^4.1.1",
     "debuggler": "^1.0.0",
+    "maria-binlog-listener": "^0.4.16",
     "mysql": "^2.17.1"
   },
   "devDependencies": {
